@@ -6,7 +6,7 @@ const NAME = sessionStorage.getItem('name');
 
 const client = AgoraRTC.createClient({ mode: 'rtc', codec: 'vp8' });
 
-let localTracks = [];
+let localTracks = []; // bxiuwefnofiow
 let remoteUsers = {};
 
 let joinAndDisplayLocalStream = async () => {
